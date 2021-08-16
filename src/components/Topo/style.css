@@ -1,0 +1,37 @@
+header{
+    background-color: rgb(255, 215, 130);
+    height: 90px;
+    
+    color: rgb(0, 71, 204);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+header button{
+    height: 90px;
+    font-weight: 1000;
+    font-size: 25px;
+    background: rgb(255, 138, 43);
+    color: rgb(85, 65, 24);
+    padding: 0 32px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    cursor: pointer;
+    border: 0;
+}
+header button:hover{
+    filter: brightness(0.9);
+}
+body{
+    background-color: #666;
+    color: #29292e;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
