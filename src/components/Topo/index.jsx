@@ -28,14 +28,14 @@ export default function Topo(props){
 
     return(
         <>
-            <header>
+            <div id='topo'>
                 <button onClick={previousPage}>-</button>
                 <div>
                     <h1>{props.children}</h1>
                     <h3>Página {page} de {totalPages}</h3>
                 </div>
                 <button onClick={nextPage}>+</button>  
-            </header>
+            </div>
             <div id="exercices">
             </div>
         </>
