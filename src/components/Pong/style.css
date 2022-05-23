@@ -1,0 +1,41 @@
+div#pong{
+    width: 700px;
+    height: 460px;
+    background-color: rgb(0, 0, 0);
+    border: 5px solid rgb(255, 255, 255);
+    position:relative;
+}
+div#ballYellow{
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(255, 255, 0);
+    display: flex;
+    border-radius: 100%;
+    left: 345px;
+    top: 205px;
+}
+div#leftPan{
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    width: 10px;
+    height: 50px;
+    background-color: rgb(0, 255, 0);
+    display: flex;
+    left: 2px;
+    top: 185px;
+}
+div#rightPan{
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    width: 10px;
+    height: 50px;
+    background-color: rgb(0, 255, 0);
+    display: flex;
+    left: 678px;
+    top: 185px;
+}

@@ -1,0 +1,19 @@
+div#bouncingBall{
+    width: 700px;
+    height: 460px;
+    background-color: rgb(0, 0, 0);
+    border: 5px solid rgb(255, 255, 255);
+    display: flexbox;
+}
+div#ballGreen{
+    text-align: center;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(0, 255, 0);
+    display: flex;
+    border-radius: 100%;
+    position: relative;
+    left: 345px;
+    top: 205px;
+}

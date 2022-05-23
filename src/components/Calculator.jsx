@@ -6,7 +6,7 @@ export function Calculator(){
     const [calculo, setCalculo] = useState(['0']);
 
     function back(){
-        if(calculo.length === 1 && calculo[0] === '0'){
+        if(calculo.length === 1){
             setCalculo('0')
         }
         else{
@@ -33,6 +33,8 @@ export function Calculator(){
     function insertDot(){
         if(checkOperator() === true){
             setCalculo(calculo + '0.')
+        }else if(calculo[calculo.length-1] === '.'){
+            setCalculo(calculo + '')
         }else{
             setCalculo(calculo + '.')
         }

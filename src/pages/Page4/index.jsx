@@ -1,10 +1,10 @@
-import { Pokemon } from '../../components/Pokemon'
+import { ApiConsumer } from '../../components/ApiConsumer'
 import './style.css'
 
 export function Page4(){
     return(
         <div id="exercices">
-            <Pokemon></Pokemon>
+            <ApiConsumer></ApiConsumer>
         </div>
     )
 }
